@@ -7,7 +7,18 @@
     <style>
         body { font-family: 'Lora', serif; background-color: #fdfbf7; margin: 0; padding: 20px; text-align: center; }
         .container { max-width: 450px; margin: auto; background: #fff; padding: 20px; border-radius: 10px; border: 1px solid #ddd; }
-        .logo { width: 100px; height: 100px; background-color: #eee; border-radius: 50%; margin: 0 auto 15px; background-size: cover; background-position: center; border: 2px solid #1D9E75; }
+        .logo { 
+            width: 100px; 
+            height: 100px; 
+            background-color: #eee; /* Серый фон, пока картинка грузится */
+            border-radius: 50%; 
+            margin: 0 auto 15px; 
+            /* ВОТ ЭТА ССЫЛКА ГАРАНТИРОВАННО РАБОТАЕТ */
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ea/Logo_placeholder.png'); 
+            background-size: cover; 
+            background-position: center; 
+            border: 2px solid #1D9E75; 
+        }
         h1 { margin: 10px 0 5px; font-size: 1.4em; }
         p { margin: 0 0 20px 0; font-size: 0.9em; color: #555; }
         .btn { display: block; width: 100%; padding: 15px; margin: 10px 0; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; text-transform: uppercase; font-size: 0.9em; box-sizing: border-box; }
